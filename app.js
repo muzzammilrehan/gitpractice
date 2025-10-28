@@ -5,7 +5,7 @@ $(document).ready(function(){
         url : page + '.html',
         success : function(data){
             $('#content').html(data)
-            if(page == 'home'){
+            if(page == 'index'){
                 dataFetching()
             }
         }
